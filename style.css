@@ -111,3 +111,52 @@ h2 {
 
     background: #d0003b;
 }
+
+.about {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 100px 20px;
+
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.about .container {
+    max-width: 850px;
+
+    margin: 0 auto;
+}
+
+.section-label {
+    margin-bottom: 15px;
+
+    font-size: 0.9rem;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    color: #ff4d7d;
+}
+
+.about h2 {
+    margin-bottom: 30px;
+
+    font-size: clamp(2rem, 5vw, 3.5rem);
+
+    color: #ffffff;
+
+    line-height: 1.2;
+}
+
+.about-text {
+    margin-bottom: 20px;
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+
+    color: #cccccc;
+}
