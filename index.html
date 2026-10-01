@@ -1,5 +1,7 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,101 +12,440 @@
 </head>
 
 <body>
-<main class="hero">
 
-    <div class="container">
+    <!-- Navegação -->
+    <header class="header">
 
-        <p class="greeting">Olá, eu sou</p>
+        <nav class="nav container">
 
-        <h1>Lucas Mir Martins</h1>
-
-        <h2>Desenvolvedor de Software</h2>
-
-        <p class="description">
-            Desenvolvedor em formação, apaixonado por tecnologia,
-            desenvolvimento de software e criação de soluções práticas.
-        </p>
-
-        <div class="buttons">
-
-            <a href="https://github.com/lucasmirmartins"
-               target="_blank">
-                GitHub
+            <a href="#inicio" class="logo">
+                Lucas Mir
             </a>
 
-            <a href="#projetos">
-                Ver projetos
-            </a>
+            <div class="nav-links">
 
-        </div>
+                <a href="#sobre">Sobre</a>
 
-    </div>
+                <a href="#tecnologias">Tecnologias</a>
 
-</main>
-    <section class="about" id="sobre">
+                <a href="#projetos">Projetos</a>
 
-    <div class="container">
+                <a href="#formacao">Formação</a>
 
-        <p class="section-label">SOBRE MIM</p>
+                <a href="#contato">Contato</a>
 
-        <h2>Construindo soluções através da tecnologia</h2>
+            </div>
 
-        <p class="about-text">
-            Sou Lucas Mir Martins, estudante de Engenharia de Software
-            e desenvolvedor em formação. Gosto de transformar ideias em
-            projetos práticos e aprender através da construção de
-            soluções reais.
-        </p>
+        </nav>
 
-        <p class="about-text">
-            Tenho interesse em desenvolvimento de software, aplicações
-            web, APIs, bancos de dados, Linux, Docker e infraestrutura.
-            Também gosto de explorar diferentes tecnologias e entender
-            como elas funcionam na prática.
-        </p>
+    </header>
 
-    </div>
+
+    <!-- Apresentação -->
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="container">
+
+                <p class="greeting">
+                    Olá, eu sou
+                </p>
+
+                <h1>
+                    Lucas Mir Martins
+                </h1>
+
+                <h2>
+                    Desenvolvedor de Software
+                </h2>
+
+                <p class="description">
+                    Desenvolvedor em formação, apaixonado por tecnologia,
+                    desenvolvimento de software e criação de soluções práticas.
+                </p>
+
+                <div class="buttons">
+
+                    <a
+                        href="https://github.com/lucasmirmartins"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                    <a href="#projetos">
+                        Ver projetos
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Sobre mim -->
+        <section class="about" id="sobre">
+
+            <div class="container">
+
+                <p class="section-label">
+                    SOBRE MIM
+                </p>
+
+                <h2>
+                    Construindo soluções através da tecnologia
+                </h2>
+
+                <p class="about-text">
+                    Sou Lucas Mir Martins, estudante de Engenharia de Software
+                    e desenvolvedor em formação. Gosto de transformar ideias
+                    em projetos práticos e aprender através da construção de
+                    soluções reais.
+                </p>
+
+                <p class="about-text">
+                    Tenho interesse em desenvolvimento de software, aplicações
+                    web, APIs, bancos de dados, Linux, Docker e infraestrutura.
+                    Também gosto de explorar diferentes tecnologias e entender
+                    como elas funcionam na prática.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Tecnologias -->
         <section class="skills" id="tecnologias">
 
-    <div class="container">
+            <div class="container">
 
-        <p class="section-label">TECNOLOGIAS</p>
+                <p class="section-label">
+                    TECNOLOGIAS
+                </p>
 
-        <h2>Ferramentas que utilizo</h2>
+                <h2>
+                    Ferramentas que utilizo
+                </h2>
 
-        <div class="skills-grid">
+                <div class="skills-grid">
 
-            <div class="skill-card">
-                <h3>💻 Linguagens</h3>
-                <p>JavaScript · Java · C# · Pascal · HTML · CSS</p>
+                    <div class="skill-card">
+
+                        <h3>
+                            💻 Linguagens
+                        </h3>
+
+                        <p>
+                            JavaScript · Java · C# · Pascal · HTML · CSS
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <h3>
+                            ⚙️ Desenvolvimento
+                        </h3>
+
+                        <p>
+                            Node.js · Spring Boot · APIs REST
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <h3>
+                            🗄️ Banco de Dados
+                        </h3>
+
+                        <p>
+                            MySQL · SQL · DataSet · TableAdapter
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <h3>
+                            🐧 Infraestrutura
+                        </h3>
+
+                        <p>
+                            Linux · Docker · Docker Compose
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <h3>
+                            🔧 Ferramentas
+                        </h3>
+
+                        <p>
+                            Git · GitHub · Visual Studio
+                        </p>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="skill-card">
-                <h3>⚙️ Desenvolvimento</h3>
-                <p>Node.js · Spring Boot · APIs REST</p>
+        </section>
+
+
+        <!-- Projetos -->
+        <section class="projects" id="projetos">
+
+            <div class="container">
+
+                <p class="section-label">
+                    PROJETOS
+                </p>
+
+                <h2>
+                    Projetos que desenvolvi
+                </h2>
+
+                <div class="projects-grid">
+
+
+                    <!-- Agenda CRUD -->
+                    <article class="project-card">
+
+                        <h3>
+                            📇 Agenda CRUD .NET
+                        </h3>
+
+                        <p>
+                            Aplicação desktop desenvolvida em C# utilizando
+                            Windows Forms, .NET Framework 4.7.2 e banco de
+                            dados local.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>C#</span>
+
+                            <span>.NET</span>
+
+                            <span>Windows Forms</span>
+
+                        </div>
+
+                        <a
+                            href="https://github.com/lucasmirmartins/AgendaCRUD-DotNet"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Ver projeto →
+                        </a>
+
+                    </article>
+
+
+                    <!-- TodoList Pascal -->
+                    <article class="project-card">
+
+                        <h3>
+                            ✅ TodoList Pascal
+                        </h3>
+
+                        <p>
+                            Aplicação de linha de comando desenvolvida em
+                            Pascal para gerenciamento de tarefas.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>Pascal</span>
+
+                            <span>CLI</span>
+
+                        </div>
+
+                        <a
+                            href="https://github.com/lucasmirmartins/todolist-pascal"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Ver projeto →
+                        </a>
+
+                    </article>
+
+
+                    <!-- FitApp -->
+                    <article class="project-card">
+
+                        <h3>
+                            💪 FitApp
+                        </h3>
+
+                        <p>
+                            Projeto de aplicação desenvolvido como prática
+                            de desenvolvimento de software utilizando
+                            Spring Boot e banco de dados MySQL.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>Java</span>
+
+                            <span>Spring Boot</span>
+
+                            <span>MySQL</span>
+
+                        </div>
+
+                        <a
+                            href="https://github.com/lucasmirmartins/FitApp"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Ver projeto →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Krigor -->
+                    <article class="project-card">
+
+                        <h3>
+                            🗺️ Krigor Journey Planner
+                        </h3>
+
+                        <p>
+                            Projeto de planejamento de viagens desenvolvido
+                            como aplicação prática de software.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>Software</span>
+
+                            <span>Web</span>
+
+                        </div>
+
+                        <a
+                            href="https://github.com/lucasmirmartins/krigor-journey-planner"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Ver projeto →
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <div class="all-projects">
+
+                    <a
+                        href="https://github.com/lucasmirmartins?tab=repositories"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Ver todos os projetos no GitHub →
+                    </a>
+
+                </div>
+
             </div>
 
-            <div class="skill-card">
-                <h3>🗄️ Banco de Dados</h3>
-                <p>MySQL · SQL · DataSet · TableAdapter</p>
+        </section>
+
+
+        <!-- Formação -->
+        <section class="education" id="formacao">
+
+            <div class="container">
+
+                <p class="section-label">
+                    FORMAÇÃO
+                </p>
+
+                <h2>
+                    Minha formação
+                </h2>
+
+                <div class="education-card">
+
+                    <h3>
+                        🎓 Engenharia de Software
+                    </h3>
+
+                    <p>
+                        Formação em andamento, com foco em desenvolvimento
+                        de software, programação, arquitetura e construção
+                        de soluções tecnológicas.
+                    </p>
+
+                </div>
+
             </div>
 
-            <div class="skill-card">
-                <h3>🐧 Infraestrutura</h3>
-                <p>Linux · Docker · Docker Compose</p>
+        </section>
+
+
+        <!-- Contato -->
+        <section class="contact" id="contato">
+
+            <div class="container">
+
+                <p class="section-label">
+                    CONTATO
+                </p>
+
+                <h2>
+                    Vamos conversar?
+                </h2>
+
+                <p class="contact-text">
+                    Estou aberto a oportunidades, projetos e conexões
+                    profissionais na área de tecnologia.
+                </p>
+
+                <div class="contact-links">
+
+                    <a href="mailto:lucasmir360@gmail.com">
+                        📧 Email
+                    </a>
+
+                    <a
+                        href="https://github.com/lucasmirmartins"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        💻 GitHub
+                    </a>
+
+                </div>
+
             </div>
 
-            <div class="skill-card">
-                <h3>🔧 Ferramentas</h3>
-                <p>Git · GitHub · Visual Studio</p>
-            </div>
+        </section>
 
-        </div>
+    </main>
 
-    </div>
 
-</section>
-</section>
-    
+    <!-- Rodapé -->
+    <footer class="footer">
+
+        <p>
+            © 2026 Lucas Mir Martins. Desenvolvido com HTML, CSS e JavaScript.
+        </p>
+
+    </footer>
+
+
 </body>
+
 </html>
+```
