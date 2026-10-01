@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #ffffff;
+
+    background:
+        radial-gradient(
+            circle at 75% 25%,
+            #a9002f 0%,
+            #65001e 20%,
+            #120008 55%,
+            #050505 100%
+        );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.4rem;
+    color: #dddddd;
+}
